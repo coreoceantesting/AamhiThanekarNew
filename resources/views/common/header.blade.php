@@ -79,9 +79,9 @@
                                 <a class="nav-link px-lg-3" href="#">Contact</a>
                             </li>
                         </ul>
-                        <div class="social-menu">
+                        <div class="social-menu" style="display:table-column-group">
                             <ul>
-                                <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab 	fa fa-facebook"></i></i></a></li>
+                                <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab fa fa-facebook"></i></i></a></li>
                                 <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
