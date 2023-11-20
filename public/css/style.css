@@ -1,0 +1,55 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: grey;
+}
+
+#header{
+    background-color: #fff;
+}
+
+.textColor {
+    color: #030F27;
+}
+
+.navbarBgDark {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-nav .nav-link.active {
+    color: red;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-link {
+    color: #030F27;
+    font-size: small;
+}
+
+.getBtn {
+    color: #fff;
+    background-color: #D7382E;
+}
+
+.sideLine {
+    border-right: 1px solid #030F27;
+}
+
+.iconHeight {
+    height: 24px;
+    width: 24px;
+}
+
+@media screen and (min-width: 992px) {
+    .sideLine {
+        border-right: none;
+    }
+
+    .iconHeight {
+        height: 46px;
+        width: 46px;
+    }
+}
