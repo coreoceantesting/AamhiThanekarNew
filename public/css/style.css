@@ -2,7 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: grey;
 }
-
+/* header section start*/
 #header{
     background-color: #fff;
 }
@@ -14,6 +14,9 @@ body {
 .navbarBgDark {
     background: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: 25px;
+    padding: 10px;
 }
 
 .navbar-nav .nav-link.active {
@@ -53,3 +56,8 @@ body {
         width: 46px;
     }
 }
+/* header section end */
+
+/* footer section start */
+
+/* footer section end */
