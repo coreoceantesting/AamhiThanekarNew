@@ -79,9 +79,15 @@
                                 <a class="nav-link px-lg-3" href="#">Contact</a>
                             </li>
                         </ul>
+                        <div class="social-menu">
+                            <ul>
+                                <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab 	fa fa-facebook"></i></i></a></li>
+                                <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
                         <div class="text-white m-1 p-3">
-                            <button type="button" class="btn getBtn border border-white rounded-0">Get A
-                                Quote</button>
+                            <button type="button" class="btn getBtn border border-white rounded-0">DONATE NOW</button>
                         </div>
                     </div>
                 </nav>
