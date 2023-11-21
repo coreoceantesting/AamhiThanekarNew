@@ -4,7 +4,10 @@
             <div class="textColor">
                 <div class="row justify-content-center align-items-center mx-auto">
                     <div class="col-12 col-lg-3 p-0">
-                        <div class="display-3 fw-bold py-2 text-center text-lg-start d-none d-lg-block">LOGO</div>
+                        <div class="display-3 fw-bold py-2 text-center text-lg-start d-none d-lg-block"><img src="{{ asset('images/LOGO.png') }}" alt="logo" style="
+                            height: 100px;
+                            padding-left: 25%;
+                        "></div>
                         <!-- <hr class="d-block d-lg-none"> -->
                     </div>
                     <div class="col-4 col-lg-3 sideLine">
@@ -37,7 +40,8 @@
                 </div>
             </div>
             <hr class="my-0 d-lg-none">
-            <div class="text-center display-3 fw-bold mb-2 d-lg-none">LOGO</div>
+            <div class="text-center display-3 fw-bold mb-1 d-lg-none"><img src="{{ asset('images/LOGO.png') }}" alt="logo" style="
+                height: 100px;"></div>
             <div class="navbarBgDark" data-bs-theme="dark">
                 <nav class="navbar navbar-expand-lg justify-content-center justify-content-lg-between p-0">
 

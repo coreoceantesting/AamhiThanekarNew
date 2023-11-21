@@ -16,7 +16,7 @@
 						Stand up for a better tomorrow.</small></p><br><br>
 						{{-- <p style="text-align: center"> <a href="https://www.youtube.com/watch?v=jcTRwEJsfJU" class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i> Watch Video</a></p> --}}
 						<div class="Mycontainer">
-							<a class="play-btn" href="https://www.youtube.com/watch?v=jcTRwEJsfJU"></a>
+							<a class="play-btn" href="https://drive.google.com/file/d/174n2xh7Hb_OfALGRSP5sDZ9TE0DQ6g48/view"></a>
 							<p><h1 class="text-white">Watch Video</h1></p>
 						</div>
 				</div>
@@ -31,7 +31,7 @@
 		<div class="row text-center">
 	
 			<!-- Team item -->
-			<div class="col-xl-4 col-sm-6 mb-5 card-container">
+			<div class="col-xl-3 col-sm-6 mb-5 card-container">
 				<div class="bg-white rounded shadow-sm py-5 px-4 card-content"><img src="{{ asset('images/plastic.png') }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
 					<h5 class="mb-0"><strong>Know Your Plastic</strong></h5> <br>
 					<p>
@@ -45,7 +45,7 @@
 			</div><!-- End -->
 	
 			<!-- Team item -->
-			<div class="col-xl-4 col-sm-6 mb-5 card-container">
+			<div class="col-xl-3 col-sm-6 mb-5 card-container">
 				<div class="bg-white rounded shadow-sm py-5 px-4 card-content" ><img src="{{ asset('images/water-pollution.png') }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
 					<h5 class="mb-0"><strong>Waste Segregation</strong></h5> <br>
 					<p>Waste segregation is the sorting and separation of waste types to facilitate recycling and correct onward disposal. When waste is sorted correctly, it can save your company money. Waste segregation should be based on: The type of waste.</p>
@@ -57,7 +57,7 @@
 			</div><!-- End -->
 	
 			<!-- Team item -->
-			<div class="col-xl-4 col-sm-6 mb-5 " >
+			<div class="col-xl-6 col-sm-6 mb-5 " >
 				<div class="card-group" style="height: 530px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 			">
 					<div class="card text-white" style="background-color: #D7382E">
@@ -65,7 +65,7 @@
 						<h5 class="card-title mb-4"><i class='fas fa-hand-holding-usd' style='font-size:55px'></i></h5>
 						<h5 class="mb-0"><strong>Donate</strong></h5> <br>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><button class="btn btn-dark text-white">More</button></p>
+						<p class="card-text"><button class="btn btn-dark text-white">Read More</button></p>
 					  </div>
 					</div>
 					<div class="card">
@@ -84,7 +84,9 @@
 <br>
 
 <div class="line"></div>
-<div class="name"><strong>EXPLAINERS</strong></div>
+	<div class="name">
+		<strong>EXPLAINERS</strong>
+	</div>
 <div class="line"></div>
 
 {{-- blogs section start --}}
@@ -92,43 +94,58 @@
 	<div class="row row-cols-1 row-cols-md-3 g-4">
 		<div class="col">
 		  <div class="card h-100">
-			<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+			<img src="{{ asset('images/sakhinew.png') }}" class="card-img-top" alt="...">
 			<div class="card-body">
-			  <h5 class="card-title">Card title</h5>
-			  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  <h5 class="card-title"><a href="#"><strong>Menstrual Educator (Sakhi)</strong></a></h5>
+			  <p class="card-text">The Chief Minister's Menstrual Hygiene Scheme was launched on December 15, 2022. The scheme is implemented in all 16 districts to increase awareness of menstrual hygiene in school-going adolescent girls.</p>
 			</div>
 			<div class="card-footer">
-			  <small class="text-muted">Last updated 3 mins ago</small>
+			  <small class="text-muted">November 21, 2023</small>
 			</div>
 		  </div>
 		</div>
 		<div class="col">
 		  <div class="card h-100">
-			<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+			<img src="{{ asset('images/waste.jpg') }}" class="card-img-top" alt="...">
 			<div class="card-body">
-			  <h5 class="card-title">Card title</h5>
-			  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+			  <h5 class="card-title"><a href="#"><strong>3-Level Waste Segregation</strong></a></h5>
+			  <p class="card-text">Waste segregation is the sorting and separation of waste types to facilitate recycling and correct onward disposal. When waste is sorted correctly, it can save your company money. Waste segregation should be based on: The type of waste.</p>
 			</div>
 			<div class="card-footer">
-			  <small class="text-muted">Last updated 3 mins ago</small>
+			  <small class="text-muted">November 21, 2023</small>
 			</div>
 		  </div>
 		</div>
 		<div class="col">
 		  <div class="card h-100">
-			<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+			<img src="{{ asset('images/thane.jpg') }}" class="card-img-top" alt="...">
 			<div class="card-body">
-			  <h5 class="card-title">Card title</h5>
-			  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			  <h5 class="card-title"><a href="#"><strong>Thane City</strong></a></h5>
+			  <p class="card-text">hane city generates close to 9 metric tons of waste every day which currently
+				goes to landfill. Hence it needs to be addressed on a war footing. Steps towards
+				waste reduction, waste segregation, and collection of segregated waste for safe
+				disposal need to be implemented. For this to happen, all Thanekars  will need
+				to participate along with the Municipal Corporation.</p>
 			</div>
 			<div class="card-footer">
-			  <small class="text-muted">Last updated 3 mins ago</small>
+			  <small class="text-muted">November 21, 2023</small>
 			</div>
 		  </div>
+		</div>
+		<div class="col">
+			<div class="card h-100">
+				<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+				<div class="card-body">
+				<h5 class="card-title"><a href="#"><strong>Know Your Plastic </strong></a></h5>
+				<p class="card-text">Plastic waste, also known as plastic pollution, is the accumulation of plastic objects in the environment. This includes plastic bottles, bags, food wrappers, and more.</p>
+				</div>
+				<div class="card-footer">
+				<small class="text-muted">November 21, 2023</small>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-
 {{-- blogs section end --}}
 
 <br>
