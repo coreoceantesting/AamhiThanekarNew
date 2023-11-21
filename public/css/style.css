@@ -108,6 +108,86 @@ body {
 
 /* header section end */
 
+/* card section start */
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .bg-white {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  }
+
+  .card-content {
+    flex: 1;
+  }
+
+  .c-footer {
+    margin-top: -69px;
+  }
+
+  .rounded-circle {
+    border-radius: 50% !important;
+    border: 2px solid red;
+}
+/* card section end */
+
+/* contact us section start */
+
+
+/* contact us section end */
+
+/* Our partner section start */
+
+.slider img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 60s linear infinite;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    margin-top: 70px;
+    background-color: #D7382E;
+    padding: 8em 2em;
+  }
+  
+  @keyframes scroll {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(-1000%)}
+  }
+
+/* Our partner Section End */
+
+
+
+
 /* footer section start */
 
 /* footer section end */
