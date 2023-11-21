@@ -2,17 +2,32 @@
 
 @section('content')
  
+{{-- main banner section start --}}
 	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="{{ asset('images/joinus.jpg') }}" class="d-block w-100" alt="bgimage">
+				<img src="{{ asset('images/banner.jpg') }}" class="d-block w-100" alt="bgimage">
+				<div class="centered">
+					<h1 class="text-white" style="text-align: center">Join to bring the change !! <br>
+
+					Citizens make cities !!</h1>
+					<br><p class="text-white" style="text-align: center"><small>It’s about time we did something about things that matter Work for change
+
+						Stand up for a better tomorrow.</small></p><br><br>
+						{{-- <p style="text-align: center"> <a href="https://www.youtube.com/watch?v=jcTRwEJsfJU" class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i> Watch Video</a></p> --}}
+						<div class="Mycontainer">
+							<a class="play-btn" href="https://www.youtube.com/watch?v=jcTRwEJsfJU"></a>
+							<p><h1 class="text-white">Watch Video</h1></p>
+						</div>
+				</div>
 			</div>
 		</div>
   	</div>
+{{-- main banner section end --}}
 	
-	{{-- Cards Section Start--}}
+{{-- Cards Section Start--}}
 
-	<div class="container" style="margin-top: -65px; z-index: 9999;position: relative;">
+	<div class="container" style="margin-top: -160px; z-index: 9999;position: relative;">
 		<div class="row text-center">
 	
 			<!-- Team item -->
@@ -42,26 +57,83 @@
 			</div><!-- End -->
 	
 			<!-- Team item -->
-			<div class="col-xl-4 col-sm-6 mb-5 card-container" >
-				<div class="bg-white rounded shadow-sm py-5 px-4 card-content" ><img src="{{ asset('images/sakhi.png') }}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-					<h5 class="mb-0"><strong>Menstrual Educator (Sakhi)</strong></h5> <br>
-					<p>We are proud of our educators for raising menstrual awareness in the community & ensuring a period positive future for everyone !</p>
-					
-				</div>
-				
-				<div class="c-footer">
-					<button class="btn btn-danger">Read More</button>
+			<div class="col-xl-4 col-sm-6 mb-5 " >
+				<div class="card-group" style="height: 530px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+			">
+					<div class="card text-white" style="background-color: #D7382E">
+					  <div class="card-body" style="padding-top:40%">
+						<h5 class="card-title mb-4"><i class='fas fa-hand-holding-usd' style='font-size:55px'></i></h5>
+						<h5 class="mb-0"><strong>Donate</strong></h5> <br>
+						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<p class="card-text"><button class="btn btn-dark text-white">More</button></p>
+					  </div>
+					</div>
+					<div class="card">
+					  <div class="card-body" style="padding:0px 0px !important;">
+						<img src="{{ asset('images/donate.jpg') }}" style="object-fit: cover" alt="donate" height="100%" width="100%">
+					  </div> 
+					</div>
 				</div>
 			</div><!-- End -->
 	
 		</div>
 	</div>
 
-	{{-- Cards Section End --}}
+{{-- Cards Section End --}}
 
-	<br>
+<br>
 
-	{{-- Our Partner Section Start --}}
+<div class="line"></div>
+<div class="name"><strong>EXPLAINERS</strong></div>
+<div class="line"></div>
+
+{{-- blogs section start --}}
+<div class="container">
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		<div class="col">
+		  <div class="card h-100">
+			<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+		<div class="col">
+		  <div class="card h-100">
+			<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			</div>
+			<div class="card-footer">
+			  <small class="text-muted">Last updated 3 mins ago</small>
+			</div>
+		  </div>
+		</div>
+	</div>
+</div>
+
+{{-- blogs section end --}}
+
+<br>
+
+{{-- Our Partner Section Start --}}
 
 	<div class="slider">
 		<div class="text-center">
@@ -126,12 +198,12 @@
 			</div>
 		</div>
 	</div>
-	
-	{{-- Our Partner Section End --}}
 
-	<br><br><br><br>
+{{-- Our Partner Section End --}}
 
-	{{-- Contact Us Section Start --}}
+<br><br><br><br>
+
+{{-- Contact Us Section Start --}}
 
 	<div class="container" >
 		<div class="row">
@@ -163,8 +235,8 @@
 			</div>
 		</div>
 	</div>
-	{{-- Contact Us Section End --}}
-	<br>
+{{-- Contact Us Section End --}}
+<br>
     
 @endsection
 
