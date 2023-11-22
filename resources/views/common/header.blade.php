@@ -54,7 +54,7 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                         <ul class="navbar-nav text-uppercase ps-3">
                             <li class="nav-item">
-                                <a class="nav-link active pe-3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active pe-3" aria-current="page" href="{{url('/')}}">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link px-lg-3" href="#">About</a>
@@ -85,9 +85,9 @@
                         </ul>
                         <div class="social-menu" style="display:table-column-group">
                             <ul>
-                                <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab fa fa-facebook"></i></i></a></li>
-                                <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/sanket-bodake-995b5b205/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.facebook.com/" target="blank"><i class="fab fa fa-facebook"></i></i></a></li>
+                                <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="blank"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                         <div class="text-white m-1 p-3">

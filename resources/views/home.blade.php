@@ -92,6 +92,24 @@
 {{-- blogs section start --}}
 <div class="container">
 	<div class="row row-cols-1 row-cols-md-3 g-4">
+
+		<div class="col">
+			<div class="card h-100">
+				<img src="{{ asset('images/thane.jpg') }}" class="card-img-top" alt="...">
+				<div class="card-body">
+				<h5 class="card-title"><a href="{{route('blog_details')}}"><strong>Thane City</strong></a></h5>
+				<p class="card-text">hane city generates close to 9 metric tons of waste every day which currently
+					goes to landfill. Hence it needs to be addressed on a war footing. Steps towards
+					waste reduction, waste segregation, and collection of segregated waste for safe
+					disposal need to be implemented. For this to happen, all Thanekars  will need
+					to participate along with the Municipal Corporation.</p>
+				</div>
+				<div class="card-footer">
+				<small class="text-muted">November 21, 2023</small>
+				</div>
+			</div>
+		</div>
+
 		<div class="col">
 		  <div class="card h-100">
 			<img src="{{ asset('images/sakhinew.png') }}" class="card-img-top" alt="...">
@@ -104,6 +122,7 @@
 			</div>
 		  </div>
 		</div>
+
 		<div class="col">
 		  <div class="card h-100">
 			<img src="{{ asset('images/waste.jpg') }}" class="card-img-top" alt="...">
@@ -116,22 +135,7 @@
 			</div>
 		  </div>
 		</div>
-		<div class="col">
-		  <div class="card h-100">
-			<img src="{{ asset('images/thane.jpg') }}" class="card-img-top" alt="...">
-			<div class="card-body">
-			  <h5 class="card-title"><a href="#"><strong>Thane City</strong></a></h5>
-			  <p class="card-text">hane city generates close to 9 metric tons of waste every day which currently
-				goes to landfill. Hence it needs to be addressed on a war footing. Steps towards
-				waste reduction, waste segregation, and collection of segregated waste for safe
-				disposal need to be implemented. For this to happen, all Thanekars  will need
-				to participate along with the Municipal Corporation.</p>
-			</div>
-			<div class="card-footer">
-			  <small class="text-muted">November 21, 2023</small>
-			</div>
-		  </div>
-		</div>
+		
 		<div class="col">
 			<div class="card h-100">
 				<img src="{{ asset('images/joinus.jpg') }}" class="card-img-top" alt="...">
