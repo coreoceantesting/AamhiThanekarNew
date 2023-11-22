@@ -91,7 +91,7 @@
               <!-- Copyright -->
               <div class="p-3 text-dark">
                 © 2023 Copyright:
-                <a class="text-danger" href="https://mdbootstrap.com/"
+                <a class="text-danger" href="#"
                    >AamhiThanekar</a
                   >
               </div>
