@@ -16,7 +16,7 @@
 						Stand up for a better tomorrow.</small></p><br><br>
 						{{-- <p style="text-align: center"> <a href="https://www.youtube.com/watch?v=jcTRwEJsfJU" class="btn btn-primary"><i class="fa fa-play" aria-hidden="true"></i> Watch Video</a></p> --}}
 						<div class="Mycontainer">
-							<a class="play-btn" href="https://drive.google.com/file/d/174n2xh7Hb_OfALGRSP5sDZ9TE0DQ6g48/view"></a>
+							<a class="play-btn" target="blank" href="https://drive.google.com/file/d/174n2xh7Hb_OfALGRSP5sDZ9TE0DQ6g48/view"></a>
 							<p><h1 class="text-white">Watch Video</h1></p>
 						</div>
 				</div>
