@@ -91,7 +91,7 @@
                             </ul>
                         </div>
                         <div class="text-white m-1 p-3">
-                            <button type="button" class="btn getBtn border border-white rounded-0">DONATE NOW</button>
+                            {{-- <button type="button" class="btn getBtn border border-white rounded-0">DONATE NOW</button> --}}
                         </div>
                     </div>
                 </nav>
