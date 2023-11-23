@@ -102,7 +102,7 @@
             <!-- Grid column -->
             <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
               <!-- Facebook -->
-              <a
+              <a href="https://www.facebook.com/"
                  class="btn btn-outline-danger btn-floating m-1"
                  class="text-danger"
                  role="button"
@@ -110,7 +110,7 @@
                 ></a>
   
               <!-- Twitter -->
-              <a
+              <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
                  class="btn btn-outline-danger btn-floating m-1"
                  class="text-danger"
                  role="button"
@@ -118,7 +118,7 @@
                 ></a>
   
               <!-- Google -->
-              <a
+              <a href="https://in.linkedin.com/"
                  class="btn btn-outline-danger btn-floating m-1"
                  class="text-danger"
                  role="button"
